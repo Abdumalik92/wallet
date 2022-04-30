@@ -1,6 +1,7 @@
 package controller
 
 import (
+	"fmt"
 	"github.com/Abdumalik92/wallet/internal/models"
 	"github.com/Abdumalik92/wallet/internal/pkg/service"
 	"github.com/Abdumalik92/wallet/internal/pkg/utils"
@@ -31,7 +32,7 @@ func GetInfo(c *gin.Context) {
 	}
 	request.UserId = userId
 
-	checkHash := utils.GetSha256(request.Phone, []byte(utils.AppSettings.SecretKey.Key))
+	checkHash := utils.GetSha256(fmt.Sprint(request.UserId)+request.Phone, []byte(utils.AppSettings.SecretKey.Key))
 	log.Println(checkHash)
 	if checkHash != hash {
 		c.JSON(http.StatusBadRequest, gin.H{"reason": "Invalid hash"})
