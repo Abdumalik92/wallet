@@ -104,3 +104,25 @@ Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-
 2022/04/30 14:57:55 ca1a92ee35f6de65650b27e5d90c62f178ddfee9ab18c91a3c49716a47c688ad
 2022/04/30 14:58:45 ca1a92ee35f6de65650b27e5d90c62f178ddfee9ab18c91a3c49716a47c688ad
 2022/04/30 14:58:45 GetInfo userID 3 request = {3 078880000 0}
+[GIN-debug] GET    /info                     --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetInfo (5 handlers)
+[GIN-debug] POST   /top_up                   --> github.com/Abdumalik92/wallet/internal/pkg/controller.TopUp (5 handlers)
+[GIN-debug] GET    /operation                --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetOperation (5 handlers)
+[GIN-debug] GET    /balance                  --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetBalance (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2022/04/30 16:05:06 96cd883e9e1434a67a4e3b58802a731ac5d3a6b705ea668f075ea2a4248ece2c
+2022/04/30 16:05:37 96cd883e9e1434a67a4e3b58802a731ac5d3a6b705ea668f075ea2a4248ece2c
+2022/04/30 16:05:37 GetBalance userID 3 request = {3  0}
+[GIN-debug] GET    /info                     --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetInfo (5 handlers)
+[GIN-debug] POST   /top_up                   --> github.com/Abdumalik92/wallet/internal/pkg/controller.TopUp (5 handlers)
+[GIN-debug] GET    /operation                --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetOperation (5 handlers)
+[GIN-debug] GET    /balance                  --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetBalance (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2022/04/30 16:06:35 CheckUser user not found
+2022/04/30 16:06:35 CheckUser ExitsUser error  You're not our client
+2022/04/30 16:16:02 a91b116b9a639df9dac5a73d3542309696f519110a80794289a2de7ec80f9b00
+2022/04/30 16:16:16 a91b116b9a639df9dac5a73d3542309696f519110a80794289a2de7ec80f9b00
+2022/04/30 16:16:16 GetBalance userID 5 request = {5  0}

@@ -33,7 +33,7 @@ func GetInfo(c *gin.Context) {
 	request.UserId = userId
 
 	checkHash := utils.GetSha256(fmt.Sprint(request.UserId)+request.Phone, []byte(utils.AppSettings.SecretKey.Key))
-	log.Println(checkHash)
+
 	if checkHash != hash {
 		c.JSON(http.StatusBadRequest, gin.H{"reason": "Invalid hash"})
 		return
@@ -44,7 +44,7 @@ func GetInfo(c *gin.Context) {
 	err = service.GetInfo(request, &response)
 	if err != nil {
 		log.Println("GetInfo controller err ", err.Error())
-		c.JSON(http.StatusInternalServerError, gin.H{"reason": err.Error()})
+		c.JSON(http.StatusInternalServerError, gin.H{"reason": "Something went wrong"})
 		return
 	}
 	c.JSON(http.StatusOK, response)
