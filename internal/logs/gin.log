@@ -5,3 +5,102 @@
 [GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
 Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
 [GIN-debug] Listening and serving HTTP on :8000
+[GIN-debug] GET    /info/:phone              --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetInfo (4 handlers)
+[GIN-debug] POST   /top_up                   --> github.com/Abdumalik92/wallet/internal/pkg/controller.TopUp (4 handlers)
+[GIN-debug] GET    /operation                --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetOperation (4 handlers)
+[GIN-debug] GET    /balance                  --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetBalance (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN-debug] GET    /info                     --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetInfo (4 handlers)
+[GIN-debug] POST   /top_up                   --> github.com/Abdumalik92/wallet/internal/pkg/controller.TopUp (4 handlers)
+[GIN-debug] GET    /operation                --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetOperation (4 handlers)
+[GIN-debug] GET    /balance                  --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetBalance (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2022/04/30 14:01:24 c4fc720a9b509cec41c443f9c62eb905ec039c81213c4208972e8e08612b462a
+2022/04/30 14:01:44 c4fc720a9b509cec41c443f9c62eb905ec039c81213c4208972e8e08612b462a
+2022/04/30 14:01:44 ExitsUser query err  sql: no rows in result set
+2022/04/30 14:01:44 GetInfo ExitsUser error  sql: no rows in result set
+[GIN-debug] GET    /info                     --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetInfo (4 handlers)
+[GIN-debug] POST   /top_up                   --> github.com/Abdumalik92/wallet/internal/pkg/controller.TopUp (4 handlers)
+[GIN-debug] GET    /operation                --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetOperation (4 handlers)
+[GIN-debug] GET    /balance                  --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetBalance (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN-debug] GET    /info                     --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetInfo (4 handlers)
+[GIN-debug] POST   /top_up                   --> github.com/Abdumalik92/wallet/internal/pkg/controller.TopUp (4 handlers)
+[GIN-debug] GET    /operation                --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetOperation (4 handlers)
+[GIN-debug] GET    /balance                  --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetBalance (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2022/04/30 14:05:39 c4fc720a9b509cec41c443f9c62eb905ec039c81213c4208972e8e08612b462a
+2022/04/30 14:05:39 ExitsUser query err  sql: Scan error on column index 0, name "id": destination not a pointer
+2022/04/30 14:05:39 GetInfo ExitsUser error  sql: Scan error on column index 0, name "id": destination not a pointer
+[GIN-debug] GET    /info                     --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetInfo (4 handlers)
+[GIN-debug] POST   /top_up                   --> github.com/Abdumalik92/wallet/internal/pkg/controller.TopUp (4 handlers)
+[GIN-debug] GET    /operation                --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetOperation (4 handlers)
+[GIN-debug] GET    /balance                  --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetBalance (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2022/04/30 14:08:28 c4fc720a9b509cec41c443f9c62eb905ec039c81213c4208972e8e08612b462a
+2022/04/30 14:08:28 GetInfo userID 3 request = {3 028880000 0}
+[GIN-debug] GET    /info                     --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetInfo (5 handlers)
+[GIN-debug] POST   /top_up                   --> github.com/Abdumalik92/wallet/internal/pkg/controller.TopUp (5 handlers)
+[GIN-debug] GET    /operation                --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetOperation (5 handlers)
+[GIN-debug] GET    /balance                  --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetBalance (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2022/04/30 14:48:35 CheckUser query err  pq: столбец "status" не существует
+2022/04/30 14:48:35 CheckUser ExitsUser error  pq: столбец "status" не существует
+2022/04/30 14:48:35 c4fc720a9b509cec41c443f9c62eb905ec039c81213c4208972e8e08612b462a
+2022/04/30 14:48:35 GetInfo userID 3 request = {3 028880000 0}
+2022/04/30 14:48:35 GetInfo query err  pq: столбец u.status не существует
+2022/04/30 14:48:35 GetInfo controller err  pq: столбец u.status не существует
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 400 with 500
+[GIN-debug] GET    /info                     --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetInfo (5 handlers)
+[GIN-debug] POST   /top_up                   --> github.com/Abdumalik92/wallet/internal/pkg/controller.TopUp (5 handlers)
+[GIN-debug] GET    /operation                --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetOperation (5 handlers)
+[GIN-debug] GET    /balance                  --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetBalance (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2022/04/30 14:49:26 CheckUser query err  pq: столбец "status" не существует
+2022/04/30 14:49:26 CheckUser ExitsUser error  pq: столбец "status" не существует
+[GIN-debug] GET    /info                     --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetInfo (5 handlers)
+[GIN-debug] POST   /top_up                   --> github.com/Abdumalik92/wallet/internal/pkg/controller.TopUp (5 handlers)
+[GIN-debug] GET    /operation                --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetOperation (5 handlers)
+[GIN-debug] GET    /balance                  --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetBalance (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2022/04/30 14:50:21 c4fc720a9b509cec41c443f9c62eb905ec039c81213c4208972e8e08612b462a
+2022/04/30 14:50:21 GetInfo userID 3 request = {3 028880000 0}
+[GIN-debug] GET    /info                     --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetInfo (5 handlers)
+[GIN-debug] POST   /top_up                   --> github.com/Abdumalik92/wallet/internal/pkg/controller.TopUp (5 handlers)
+[GIN-debug] GET    /operation                --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetOperation (5 handlers)
+[GIN-debug] GET    /balance                  --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetBalance (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2022/04/30 14:51:32 c4fc720a9b509cec41c443f9c62eb905ec039c81213c4208972e8e08612b462a
+2022/04/30 14:51:32 GetInfo userID 3 request = {3 028880000 0}
+[GIN-debug] GET    /info                     --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetInfo (5 handlers)
+[GIN-debug] POST   /top_up                   --> github.com/Abdumalik92/wallet/internal/pkg/controller.TopUp (5 handlers)
+[GIN-debug] GET    /operation                --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetOperation (5 handlers)
+[GIN-debug] GET    /balance                  --> github.com/Abdumalik92/wallet/internal/pkg/controller.GetBalance (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2022/04/30 14:53:38 c4fc720a9b509cec41c443f9c62eb905ec039c81213c4208972e8e08612b462a
+2022/04/30 14:53:38 GetInfo userID 3 request = {3 028880000 0}
+2022/04/30 14:57:32 c4fc720a9b509cec41c443f9c62eb905ec039c81213c4208972e8e08612b462a
+2022/04/30 14:57:32 GetInfo userID 3 request = {3 028880000 0}
+2022/04/30 14:57:55 ca1a92ee35f6de65650b27e5d90c62f178ddfee9ab18c91a3c49716a47c688ad
+2022/04/30 14:58:45 ca1a92ee35f6de65650b27e5d90c62f178ddfee9ab18c91a3c49716a47c688ad
+2022/04/30 14:58:45 GetInfo userID 3 request = {3 078880000 0}

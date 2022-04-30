@@ -2,6 +2,7 @@ package routes
 
 import (
 	"fmt"
+	"github.com/Abdumalik92/wallet/internal/middlware"
 	"github.com/Abdumalik92/wallet/internal/pkg/controller"
 	"github.com/Abdumalik92/wallet/internal/pkg/utils"
 	"github.com/gin-gonic/gin"
@@ -33,10 +34,10 @@ func RunAllRoutes() {
 	log.SetOutput(logger)
 	gin.DefaultWriter = io.MultiWriter(logger, os.Stdout)
 
-	r.GET("/info/:phone", controller.GetInfo)
-	r.POST("/top_up", controller.TopUp)
-	r.GET("/operation", controller.GetOperation)
-	r.GET("/balance", controller.GetBalance)
+	r.GET("/info", middlware.CheckUser, controller.GetInfo)
+	r.POST("/top_up", middlware.CheckUser, controller.TopUp)
+	r.GET("/operation", middlware.CheckUser, controller.GetOperation)
+	r.GET("/balance", middlware.CheckUser, controller.GetBalance)
 
 	_ = r.Run(utils.AppSettings.AppParams.PortRun)
 }

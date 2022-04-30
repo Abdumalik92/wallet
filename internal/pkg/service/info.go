@@ -1,7 +1,10 @@
 package service
 
-import "github.com/Abdumalik92/wallet/internal/pkg/repository"
+import (
+	"github.com/Abdumalik92/wallet/internal/models"
+	"github.com/Abdumalik92/wallet/internal/pkg/repository"
+)
 
-func GetInfo() error {
-	return repository.GetInfo()
+func GetInfo(request models.Request, response *models.Response) error {
+	return repository.GetInfo(request, response)
 }
