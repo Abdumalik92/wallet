@@ -8,7 +8,7 @@ type Request struct {
 
 type Response struct {
 	ClientName string  `json:"client_name,omitempty" gorm:"column:p_client_name"`
-	Phone      string  `json:"phone" gorm:"column:p_phone"`
+	Phone      string  `json:"phone,omitempty" gorm:"column:p_phone"`
 	Status     bool    `json:"status,omitempty" gorm:"column:p_status"`
 	Identified bool    `json:"identified,omitempty" gorm:"column:p_identified"`
 	Balance    float64 `json:"balance,omitempty" gorm:"column:p_balance"`
