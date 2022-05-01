@@ -76,13 +76,13 @@ begin
         p_message = 'Error on create transaction';
         rollback;
     end if;
-    update account set account_balance = d_from_balance - p_amount where id = d_from_acc returning id into d_id;
+    update account set account_balance = d_from_balance - p_amount, last_update = now() where id = d_from_acc returning id into d_id;
     if d_id <= 0 then
         p_code = 2;
         p_message = 'Error on update account balance';
         rollback;
     end if;
-    update account set account_balance = d_to_balance + p_amount where id = d_to_acc returning id into d_id;
+    update account set account_balance = d_to_balance + p_amount, last_update = now() where id = d_to_acc returning id into d_id;
     if d_id <= 0 then
         p_code = 2;
         p_message = 'Error on update account balance';
